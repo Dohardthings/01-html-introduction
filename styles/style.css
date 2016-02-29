@@ -14,7 +14,7 @@ html {
 
 body {
   margin: 0;
-  font-family: Raleway, sans-serif;
+  font-family: Raleway sans-serif;
   color: #272727;
 }
 
@@ -26,7 +26,7 @@ ul {
 .top-nav__list {
   max-width: 1040px;
   margin: 0 auto;
-
+  display: inline-block;
   overflow: auto;
 }
 
@@ -38,12 +38,15 @@ ul {
 }
 
 .top-nav__item--brand {
-  float: right;
+  float: left;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  margin: 0 1rem;
 }
 
 .top-nav {
   background: #272727;
-  color: antiquewhite;
+  color: #F25F5C;
 }
 
 .content {
@@ -63,7 +66,7 @@ ul {
 .student-info__profile-pic {
   display: block;
   margin: auto;
-
+  text-align: center;
   border-radius: 50%;
   width: 5rem;
 }
@@ -74,7 +77,7 @@ ul {
 }
 
 .student-info__social-list {
-  margin: auto
+  margin: auto;
   text-align: center;
 }
 
