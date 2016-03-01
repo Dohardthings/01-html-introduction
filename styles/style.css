@@ -7,7 +7,13 @@
 html {
   box-sizing: border-box;
 }
-
+a { text-decoration: none;
+}
+a:link { color: #F25F5C
+}
+a:visited {
+  color: #F25F5C
+}
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -38,18 +44,21 @@ ul {
 }
 
 .top-nav__item--brand {
-  float: right;
+  float: left;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  margin: 0 1rem;
 }
 
 .top-nav {
   background: #272727;
-  color: antiquewhite;
+  color: #F25F5C;
 }
 
 .content {
   padding: 0 1rem;
-  max-width: 1040px
-  margin: auto
+  max-width: 1040px;
+  margin: auto;
 }
 
 .student-info {
@@ -63,7 +72,7 @@ ul {
 .student-info__profile-pic {
   display: block;
   margin: auto;
-
+  text-align: center;
   border-radius: 50%;
   width: 5rem;
 }
@@ -74,7 +83,7 @@ ul {
 }
 
 .student-info__social-list {
-  margin: auto
+  margin: auto;
   text-align: center;
 }
 
