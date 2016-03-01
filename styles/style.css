@@ -7,7 +7,13 @@
 html {
   box-sizing: border-box;
 }
-
+a { text-decoration: none;
+}
+a:link { color: #F25F5C
+}
+a:visited {
+  color: #F25F5C
+}
 *, *::before, *::after {
   box-sizing: inherit;
 }
